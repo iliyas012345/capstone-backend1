@@ -25,9 +25,9 @@ app.use("/api/v1/product", productRoutes)
 
 
 app.get("/", (req, res) => {
-    res.send("<h1>Welcome to ecommerce app</h1>");
+    res.send("<h1>WELCOME TO ITEM CATALOG</h1>");
   });
-  
+
   
 app.listen(process.env.PORT,()=>{
     console.log(`sever is working on http://localhost:${process.env.PORT}`)
